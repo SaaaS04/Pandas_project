@@ -25,11 +25,8 @@ series_idade = pd.Series(idades)
 series_idade
 
 #%%
+#estatisticas da serie
 media_idade = series_idade.mean()
 var_idade = series_idade.var()
 sumary = series_idade.describe()
 sumary
-
-
-#%%
-
