@@ -9,8 +9,9 @@ df.shape
 
 #%%
 df.info(memory_usage='deep')
+
 #%%
 df.dtypes
-#%%
 
+#%%
 df.rename(columns={})
